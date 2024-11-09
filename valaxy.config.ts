@@ -24,8 +24,11 @@ export default defineConfig<ThemeConfig>({
     // 请参考 https://waline.js.org/ 设置 serverURL 地址
     addonWaline({
       comment: true,
-      serverURL: 'https://blog-comments-waline-aqma-84hu7b1rp-griki4s-projects.vercel.app',
-      emoji: ['//unpkg.com/@waline/emojis@1.2.0/tieba'],
+      serverURL: 'https://blog-comments-waline-aqma.vercel.app/',
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili'
+      ],
       pageview: true,
     }),
   ]
