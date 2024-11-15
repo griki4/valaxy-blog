@@ -30,6 +30,7 @@ declare module 'vue-router/auto-routes' {
     '/categories/[...its]': RouteRecordInfo<'/categories/[...its]', '/categories/:its(.*)', { its: ParamValue<true> }, { its: ParamValue<false> }>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
+    '/posts/frontend/css/theme-color': RouteRecordInfo<'/posts/frontend/css/theme-color', '/posts/frontend/css/theme-color', Record<never, never>, Record<never, never>>,
     '/posts/frontend/JavaScript/DataType/array': RouteRecordInfo<'/posts/frontend/JavaScript/DataType/array', '/posts/frontend/JavaScript/DataType/array', Record<never, never>, Record<never, never>>,
     '/posts/frontend/JavaScript/DataType/float-compute': RouteRecordInfo<'/posts/frontend/JavaScript/DataType/float-compute', '/posts/frontend/JavaScript/DataType/float-compute', Record<never, never>, Record<never, never>>,
     '/posts/frontend/JavaScript/DataType/object': RouteRecordInfo<'/posts/frontend/JavaScript/DataType/object', '/posts/frontend/JavaScript/DataType/object', Record<never, never>, Record<never, never>>,
